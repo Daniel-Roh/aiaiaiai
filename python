@@ -1,0 +1,4 @@
+import sympy
+sympy.init_printing(use_latex='mathjax')
+x = sympy.symbols('x')
+x
